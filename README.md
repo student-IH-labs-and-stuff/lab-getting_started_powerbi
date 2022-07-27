@@ -5,11 +5,10 @@
 Refer to the `files_for_lab/we_fn_use_c_marketing_customer_value_analysis.csv` dataset.
 
 ### Instructions
-1. Load the dataset to your PowerBi workbook.
-2. Review the data values in fields and column data types. Change decimal fields to fixed decimals (2 decimal places) by adding a transform step.
-3. Review column names to confirm they are correct and clear
-4. Create a bar chart of the number of customers per **Gender**.
-5. Create a bar chart of the number of customers per **EmploymentStatus** and **Gender**.
-6. Create another type of chart (Pie or Doughnut) to show percentage ratio of **Gender**. 
-7. Using the chart you created in Question 5 -add **MaritalStatus** as a filter for this chart. (Do you see any special insights to share?)  
+1. Load the dataset to your PowerBI workbook.
+2. Go to Transform Data. Review the data values in fields and column data types. 
+3. Change decimal fields customer lifetime value and claim amount to fixed decimals (2 decimal places) by adding a transform step. Bonus - rename the steps as 'reduce decimals <fieldname>' for transparency
+4. Review column names to confirm they are correct and clear before saving and loading the changes to your workbook
+5. Select the first bar chart in the visualisations pane with Number of Policies and Coverage- to show the number of policies per **Coverage type**. Note the title now matches the purpose of the chart. Rename the tab 'bar chart'
+6. In a new report page. Create a table by ignoring the visualisations pane, and selecting Coverage, Number of Policies, Number of Open Complaints
 8. Save your powerbi workbook as `unit_4_lab.pbix`.
